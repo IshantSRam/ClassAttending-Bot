@@ -17,10 +17,10 @@ print("Your Meeting Code is", code)
 
 # Log In with Gooogle Account
 driver.get("https:/gmail.com/")
-driver.find_element_by_id("identifierId").send_keys("navrangidevi098@gmail.com")
+driver.find_element_by_id("identifierId").send_keys("Your Email")
 driver.find_element_by_xpath('//*[@id="identifierNext"]/div/button/div[2]').click()
 driver.implicitly_wait(5)
-driver.find_element_by_name("password").send_keys("01Nnine2123")
+driver.find_element_by_name("password").send_keys("Your Email Password")
 driver.find_element_by_xpath('//*[@id="passwordNext"]/div/button/div[2]').click()
 
 # Opening Google Meet
